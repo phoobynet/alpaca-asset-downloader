@@ -1,0 +1,21 @@
+{
+  "name": "nasdaq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "debug": "node index.js -o assets.json --status=active --exchange=NASDAQ --asset_class=us_equity --shortable --fractionable=false --easy_to_borrow --marginable --tradable"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.10",
+    "prettier": "^2.7.1"
+  }
+}
