@@ -9,6 +9,8 @@ You will require an [Alpaca account](https://app.alpaca.markets/signup) is use t
 
 ## Usage
 
+The only required argument is `-o` or it's alias `--outfile`.  All other args are optional.
+
 ```
 node index.js -o assets.json --status=active --exchange=NASDAQ --asset_class=us_equity --shortable --fractionable=false --easy_to_borrow --marginable --tradable
 ```
